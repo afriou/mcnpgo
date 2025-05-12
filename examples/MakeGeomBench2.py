@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
-# Entete a recopier
-import os,sys
-sys.path.append("../")
+"""
+Example showing how "Extract" could be used to recycle legacy files
+to build new ones.
+"""
+
+# Import mcnpgo
 from mcnpgo.mcnpgo import *
-from copy import deepcopy
 
 # Loading files
 room_45 = go("./results/room_45.mcnp") # Load old file
@@ -13,6 +15,8 @@ room_45 = go("./results/room_45.mcnp") # Load old file
 detector = room_45.Extract(range(12,22), radius=10e2)
 
 # Reverse it back to its original position
+# (Header of "room_45.mcnp" contains information on what was done 
+# to the detector bench, so that we can reverse transform it.)
 detector.Translat([0,-400,0]) # Pure translation
 detector.TrRotY(angle=-1)     # Pure rotation
 

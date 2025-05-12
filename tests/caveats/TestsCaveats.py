@@ -4,8 +4,7 @@
 Test script for caveats
 """
 
-import sys
-sys.path.append("../../")
+# Import mcnpgo
 from mcnpgo.mcnpgo import *
 
 # TEST 1

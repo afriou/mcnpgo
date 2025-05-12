@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-# Entete a recopier
-import os,sys
-sys.path.append("../../")
+"""
+Test script for Extract method
+"""
+
+# Import mcnpgo
 from mcnpgo.mcnpgo import *
-from copy import deepcopy
 
 # Loading files
 room_30 = go("./room_30.mcnp") # Load old file

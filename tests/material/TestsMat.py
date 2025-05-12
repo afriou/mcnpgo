@@ -4,8 +4,7 @@
 Test script for merging material cards
 """
 
-import os,sys
-sys.path.append("../../")
+# Import mcnpgo
 from mcnpgo.mcnpgo import *
 from copy import deepcopy
 

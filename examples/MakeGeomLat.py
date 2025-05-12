@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 
+"""
+Example of an assembly.
+See article for details.
+"""
 
-import os,sys
-sys.path.append("../")
+# Import mcnpgo
 from mcnpgo.mcnpgo import *
 from copy import deepcopy
+import os
 
 # Loading files
 room = go("./room.mcnp")

@@ -4,8 +4,8 @@
 Test script for ResolveTRCL on lattices.
 """
 
-import os,sys
-sys.path.append("../../")
+# Import mcnpgo
+import os
 from mcnpgo.mcnpgo import *
 
 # Listing test files
