@@ -17,7 +17,8 @@ It was conceived for MCNP users with almost no knowledge of Python.
 
 To install MCNP-GO, you can use pip:
 ```sh
-pip install setup.py
+cd path/to/mcnpgo/directory
+pip install .
 ```
 
 or just add the path to mcnpgo directory, at the beginning of your script, add:
