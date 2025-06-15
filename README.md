@@ -2,6 +2,8 @@
 
 MCNP-GO is a Python package designed to manipulate and assemble MCNP input files, allowing users to assemble a set of independent objects, each described by a valid MCNP file, into a single cohesive file. This tool is particularly useful for applications where precise modeling and positioning of equipment are crucial.
 
+It was conceived for MCNP users with almost no knowledge of Python.
+
 ## Features
 
 - **File Assembly**: Assemble multiple MCNP input files into a single file.
