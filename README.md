@@ -18,6 +18,12 @@ To install MCNP-GO, you can use pip:
 pip install setup.py
 ```
 
+or just add the path to mcnpgo directory, at the beginning of your script, add:
+```python
+import sys
+sys.path.append('path/to/mcnpgo/directory')
+```
+
 ## Basic usage
 
 This code reads two files, rotates one by 45 degrees and assembles them. For more details, the attached article is a good introduction to the library.
