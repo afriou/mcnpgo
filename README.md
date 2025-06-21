@@ -48,6 +48,9 @@ obj2.Insert(obj1)
 obj2.WriteMCNPFile("assembled_file.mcnp")
 ```
 
+## Examples
+
+Examples described in the article can be found in the "examples" directory. The two python scripts "MakeGeomLat.py" and "MakeGeomBench2.py" need to be executed in the "examples" directory in order to work. Otherwise, the scripts won't load the MCNP files necessary to assemble the input file.
 
 ## Requirements and caveats
 
